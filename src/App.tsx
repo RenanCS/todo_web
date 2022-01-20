@@ -1,9 +1,11 @@
-import './App.css';
+import { Routes } from './routes';
+import { Theme } from './themes';
 
 export const App = () => {
   return (
-    <div className="App">
-    </div>
+    <Theme>
+      <Routes />
+    </Theme>
   );
 }
 
