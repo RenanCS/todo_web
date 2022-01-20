@@ -1,5 +1,5 @@
-import { Routes } from './routes';
-import { Theme } from './themes';
+import { Routes } from 'routes';
+import { Theme } from 'themes';
 
 export const App = () => {
   return (
